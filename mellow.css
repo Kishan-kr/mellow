@@ -34,7 +34,7 @@ body::after {
     position: absolute;
     top: 0;
     width: 100%;
-    height: 105%;
+    height: 110%;
     background-color: rgba(65, 64, 64, 0.7);
     z-index: -1;
 }
@@ -99,10 +99,16 @@ nav .logo-text {
 
 nav button {
     border: 1px solid var(--maroon);
+    color: var(--maroon);
     padding: 0px 24px;
     height: 40px;
     border-radius: 4px;
     margin: auto 20px auto auto;
+}
+
+nav .disabled {
+    border: 1px solid var(--pink);
+    color: var(--pink);
 }
 
 /* hero section  */
@@ -441,7 +447,7 @@ p.developer {
     /* position: relative;
     left: -500px;
     transition: left 0.5s;
-    transition-delay: 0.5s; */
+    transition-delay: 1s; */
     display: none;
 }
 
@@ -592,7 +598,7 @@ p.developer {
 }
 
 .library .heading {
-    width: calc(100% - 8px);
+    width: calc(100% - 16px);
     font-size: 1.2rem;
     text-align: center;
     padding: 1rem;
@@ -604,9 +610,10 @@ p.developer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: calc(100% - 8px);
+    width: calc(100% - 16px);
     padding: 6px;
     margin: 4px;
+    border-radius: 4px;
     border: 1px solid var(--borders);
     cursor: pointer;
 }
@@ -622,6 +629,7 @@ p.developer {
 .library .song-track .thumbnail {
     width: 40px;
     height: 40px;
+    border-radius: 2px;
 }
 
 .library .song-track .title {
@@ -783,6 +791,7 @@ p.developer {
     .expand .thumbnail {width: 320px; height: 234px;}
     .expand .track-grp { width: 320px;}
 }
+
 
 .expand .small-library {
     position: absolute;
