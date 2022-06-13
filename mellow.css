@@ -106,7 +106,7 @@ nav button {
     margin: auto 20px auto auto;
 }
 
-nav .disabled {
+nav button:disabled {
     border: 1px solid var(--pink);
     color: var(--pink);
 }
