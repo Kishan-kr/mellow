@@ -209,7 +209,7 @@ chevron.addEventListener('click', function () {
     miniPlayer.classList.toggle('expand');
     songControls.classList.toggle('fa-2x');
     body.classList.toggle('overflow-hidden');
-    libraryBtn.classList.toggle('disabled');
+    libraryBtn.toggleAttribute('disabled');
 })
 
 // setting time track 
