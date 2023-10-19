@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# Mellow Music Player
 
-You can use the [editor on GitHub](https://github.com/Kishan-kr/mellow/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+![Mellow Music Player Screenshot](mellow.svg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Overview
 
-### Markdown
+Mellow Music Player is a web-based music player designed for relaxation and development purposes. This player features a collection of limited royalty-free music tracks and provides a responsive and interactive interface that you'll love.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Features
 
-```markdown
-Syntax highlighted code block
+- **Music Playback**: Enjoy a curated collection of royalty-free music tracks.
+- **Responsive Design**: The music player adapts to different screen sizes for a seamless experience on all devices.
+- **Interactive Controls**: Play, pause, skip tracks, adjust volume, and explore music categories.
+- **Track Information**: View details about the currently playing track.
 
-# Header 1
-## Header 2
-### Header 3
+## Technologies Used
 
-- Bulleted
-- List
+- **HTML**: The structure of the music player is defined using HTML.
+- **CSS**: CSS is used for styling the player's responsive interface.
+- **JavaScript**: JavaScript powers the interactive controls and music playback.
 
-1. Numbered
-2. List
+## Live Site
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Kishan-kr/mellow/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[Listen here}(https://kishan-kr.github.io/mellow/)
